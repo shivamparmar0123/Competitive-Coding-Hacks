@@ -1,0 +1,10 @@
+FIND nCr where n = 100 and r = 20
+
+Your answer may be very large, 
+Change in problem.....print nCr % (10^9 + 7) (10^9+7 is a prime number)
+	
+	(a/b)%(10^9+7) = a%(10^9+7) * pow(b,(10^9+7)-2));
+	i.e.
+	(a/b)%(prime_number) = a%(prime_number) * pow(b,(prime_number-2));
+
+**VALID ONLY FOR PRIME VALUES

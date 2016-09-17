@@ -1,0 +1,9 @@
+printf("Oh God Plz Help Me Out");
+
+
+use printf("#1"); // #2 #3
+at different point of your code to check upto while line your code is working fine
+
+print values of variable to check which variable is not working as expected and debug its logic
+
+**Do not forget to comment these lines after you finish debugging

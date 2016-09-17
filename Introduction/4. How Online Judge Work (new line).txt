@@ -1,0 +1,22 @@
+In layman language-
+
+Online judge prints your output in a text file and 
+compare it with the text file provided by problem setter
+
+What happen if we forget to put \n (new line) after printing solution for various test case
+
+Let's assume a problem in which you have to print first 5 odd number
+
+Your text file looks like
+1 3 5 7 9
+
+Problem setter's text file looks like
+1
+3
+5
+7
+9
+
+Since two files are not similar even though your solutions are correct
+So
+Online Judge treats it as a wrong solution.

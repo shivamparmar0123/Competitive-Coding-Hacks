@@ -1,0 +1,7 @@
+Modulus Distribution
+
+IT IS DISTRIBUTED OVER SUM, SUBTRACTION, MULTIPLICATION
+
+
+(12*13) % 7 = ((12%7) * (13%7))%7
+

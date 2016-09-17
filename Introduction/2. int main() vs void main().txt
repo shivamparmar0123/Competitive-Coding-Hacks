@@ -1,0 +1,17 @@
+Always use 
+
+int main()
+{
+
+
+	return 0;// do not forget to put this at the end of code
+}
+
+The int returned by main() is a way for a program 
+to return a value to “the system” that invokes it. 
+On systems that doesn’t provide such a facility the return value is ignored, 
+but that doesn’t make “void main()” legal C++ or legal C. 
+Even if your compiler accepts “void main()” avoid it, 
+or risk being considered ignorant by C and C++ programmers.
+
+source : geeksforgeeks.org

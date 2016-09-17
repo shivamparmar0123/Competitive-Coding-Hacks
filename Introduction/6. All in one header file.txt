@@ -1,0 +1,6 @@
+//
+#include<bits/stdc++.h>
+using namespace std;
+//
+
+      Use above piece of code, it will include all the header files by its own.

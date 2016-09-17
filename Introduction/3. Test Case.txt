@@ -1,0 +1,45 @@
+What is Test Case?
+
+A: Online Judge checks your program for varios value of input
+   Using test case is preferred over running your program again and again
+_______________________________________________________________________________________
+_______________________________________________________________________________________
+
+Example:
+Even Or Odd
+
+You are given a number N and you have to tell whether this number is even or odd.
+
+INPUT:
+First line will contain the number of test cases T which will be followed by T lines. Each line will consist a number N.
+
+OUTPUT:
+For each N print EVEN if N is even else print ODD.
+_________________________________________________________________________________________
+
+So if problem-setter wants to check your program for 20 different values...
+He will input the value of test case = 20.
+
+#include<bits/stdc++.h>
+
+int main()
+{
+	int test_cases;
+	int N;
+
+	scanf("%d",&test_cases);   //input=20
+
+	for( int i=0; i<test_cases; i++)	//main algo run for 20 different input
+	{
+		if(N%2==0)
+		printf("EVEN\n");
+		
+		else
+		printf("ODD\n");
+
+	}
+
+return 0;
+}
+
+
